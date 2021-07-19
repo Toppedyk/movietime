@@ -30,7 +30,6 @@ body{
   h3{
     font-size: 1.1rem;
     font-weight: 600;
-
   }
 
   p{
