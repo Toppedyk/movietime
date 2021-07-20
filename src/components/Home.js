@@ -27,7 +27,12 @@ const Home = () =>{
     } catch (error) {
       setError(true);
     }
-  }
+  };
+
+  //initial render
+  useEffect(()=>{
+    fetchMovies(1)
+  }, [])
 
 
   
